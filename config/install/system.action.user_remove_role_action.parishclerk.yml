@@ -3,12 +3,12 @@ langcode: en
 status: true
 dependencies:
   config:
-    - user.role.parish_clerk
+    - user.role.parishclerk
   module:
     - user
-id: user_remove_role_action.parish_clerk
+id: user_remove_role_action.parishclerk
 label: 'Remove the Parish Clerk role from the selected users'
 type: user
 plugin: user_remove_role_action
 configuration:
-  rid: parish_clerk
+  rid: parishclerk
