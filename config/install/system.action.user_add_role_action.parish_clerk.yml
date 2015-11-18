@@ -1,0 +1,14 @@
+uuid: 09c4fd6f-20a6-4aa8-a73e-62216f26f128
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.parish_clerk
+  module:
+    - user
+id: user_add_role_action.parish_clerk
+label: 'Add the Parish Clerk role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: parish_clerk

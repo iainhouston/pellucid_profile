@@ -1,0 +1,24 @@
+uuid: ae5694ff-8e62-40e7-8702-2e72638b5e47
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - pellucid_theme
+id: pellucid_theme_main_menu
+theme: pellucid_theme
+region: primary_menu
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+visibility: {  }

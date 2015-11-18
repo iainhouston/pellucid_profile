@@ -1,0 +1,14 @@
+uuid: d710102d-93c9-4ec0-b521-33c4251f8be1
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.councillor
+  module:
+    - user
+id: user_remove_role_action.councillor
+label: 'Remove the Councillor role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: councillor

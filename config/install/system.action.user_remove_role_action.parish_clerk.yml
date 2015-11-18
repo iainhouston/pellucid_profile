@@ -1,0 +1,14 @@
+uuid: 7c32b4c9-a657-40bd-ab4b-752a66bbbd1e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.parish_clerk
+  module:
+    - user
+id: user_remove_role_action.parish_clerk
+label: 'Remove the Parish Clerk role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: parish_clerk

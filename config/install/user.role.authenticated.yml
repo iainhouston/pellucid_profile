@@ -1,0 +1,9 @@
+uuid: 66989ea7-013c-4300-942a-4211f629845e
+langcode: en
+status: true
+dependencies: {  }
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions: {  }

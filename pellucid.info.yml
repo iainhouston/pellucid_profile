@@ -1,0 +1,62 @@
+name: Pellucid
+type: profile
+description: 'A profile for pellucid_build.'
+version: 8.x-dev
+core: 8.x
+
+# Optional: Declare our installation profile as a distribution
+# This will make the installer auto-select this installation profile.
+# The distribution_name property is used in the installer and other places as
+# a label for the software being installed.
+distribution:
+  name: Pellucid Distribution 
+
+dependencies:
+ - automated_cron
+ - block
+ - breakpoint
+ - ckeditor
+ - color
+ - comment
+ - config
+ - contact
+ - contextual
+ - block_content
+ - menu_link_content
+ - dblog
+ - field
+ - field_ui
+ - filter
+ - help
+ - history
+ - dynamic_page_cache
+ - page_cache
+ - menu_ui
+ - node
+ - path
+ - quickedit
+ - rdf
+ - search
+ - shortcut
+ - system
+ - taxonomy
+ - editor
+ - toolbar
+ - tour
+ - update
+ - user
+ - views
+ - views_ui
+ - features_ui
+ - datetime
+ - file
+ - image
+ - link
+ - options
+ - text
+ - config_update
+themes:
+ - bartik
+ - classy
+ - seven
+ - pellucid_theme
