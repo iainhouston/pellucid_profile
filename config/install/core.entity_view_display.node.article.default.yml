@@ -1,4 +1,3 @@
-uuid: b45bf4e1-ca3a-49f3-a900-f968cd709cef
 langcode: en
 status: true
 dependencies:
@@ -45,6 +44,13 @@ content:
     label: above
     settings:
       link: true
+    third_party_settings: {  }
+  comment:
+    label: above
+    type: comment_default
+    weight: 110
+    settings:
+      pager_id: 0
     third_party_settings: {  }
   links:
     weight: 100

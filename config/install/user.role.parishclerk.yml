@@ -1,9 +1,0 @@
-uuid: 1d20b642-a69b-4920-ab00-c7a39293d3f3
-langcode: en
-status: true
-dependencies: {  }
-id: parishclerk
-label: 'Parish Clerk'
-weight: -8
-is_admin: null
-permissions: {  }

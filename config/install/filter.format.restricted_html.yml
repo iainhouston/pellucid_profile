@@ -1,10 +1,11 @@
-uuid: ee01fa02-0ced-4205-ad00-d6f5f47201f0
 langcode: en
 status: true
 dependencies: {  }
 name: 'Restricted HTML'
 format: restricted_html
 weight: 0
+roles:
+  - anonymous
 filters:
   filter_html:
     id: filter_html

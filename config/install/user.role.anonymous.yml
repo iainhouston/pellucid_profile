@@ -1,9 +1,0 @@
-uuid: fcf2f29a-d6ee-48c4-a755-85f6ba24f141
-langcode: en
-status: true
-dependencies: {  }
-id: anonymous
-label: 'Anonymous user'
-weight: -10
-is_admin: false
-permissions: {  }

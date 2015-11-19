@@ -1,10 +1,9 @@
-uuid: f66077cc-4709-40b3-8263-99b8dcb69ea6
 langcode: en
 status: true
 dependencies: {  }
 id: feedback
 label: 'Website feedback'
 recipients:
-  - iainhouston@me.com
+  - admin@example.com
 reply: ''
 weight: 0

@@ -1,54 +1,47 @@
 name: Pellucid
 type: profile
 description: 'A profile for pellucid_build.'
-# version: 8.x-dev
-# core: 8.x
+
+version: '8.0.0-rc4'
+core: '8.x'
+
 dependencies:
-  - automated_cron
+  - node
+  - history
   - block
-  - block_content
   - breakpoint
   - ckeditor
   - color
-  - comment
   - config
-  # - config_update
-  - contact
+  - comment
   - contextual
-  - datetime
-  - dblog
-  - dynamic_page_cache
-  - editor
-  # - features_ui
-  # - field
-  - field_ui
-  - file
-  - filter
-  - help
-  - history
-  - image
-  # - link
+  - contact
   - menu_link_content
-  - menu_ui
-  - node
-  - options
-  - page_cache
-  - path
+  - datetime
+  - block_content
   - quickedit
-  - rdf
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
   - search
   - shortcut
-  # - system
-  - taxonomy
-  - text
   - toolbar
-  - tour
-  - update
-  - user
+  - field_ui
+  - file
+  - rdf
   - views
   - views_ui
+  - tour
+  - automated_cron
 themes:
- - bartik
- - classy
- - seven
- - pellucid_theme
+  - bartik
+  - seven
+
+project: 'drupal'
