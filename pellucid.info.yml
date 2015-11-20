@@ -43,5 +43,6 @@ dependencies:
 themes:
   - bartik
   - seven
+  - pellucis_theme
 
 project: 'drupal'
