@@ -1,0 +1,20 @@
+uuid: 38f91e28-82e9-4a4c-bb09-9f2fd65e1d33
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - pellucid_theme
+id: pellucid_theme_help
+theme: pellucid_theme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

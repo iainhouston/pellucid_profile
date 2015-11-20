@@ -1,0 +1,20 @@
+uuid: 72b45154-8b93-432c-ab05-5db5dc690d3c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pellucid_theme
+id: pellucid_theme_content
+theme: pellucid_theme
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

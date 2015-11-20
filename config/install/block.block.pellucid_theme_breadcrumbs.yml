@@ -1,0 +1,20 @@
+uuid: 6a915e1a-2b5c-4d03-b500-ccfb9e9d8f88
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pellucid_theme
+id: pellucid_theme_breadcrumbs
+theme: pellucid_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: c0634aad-ae14-4b80-bf08-8bd34f10ee8e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - pellucid_theme
+id: pellucid_theme_powered
+theme: pellucid_theme
+region: footer_fifth
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

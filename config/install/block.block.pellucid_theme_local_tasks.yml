@@ -1,0 +1,20 @@
+uuid: 54c6b1f6-b48e-4ea7-a43e-62a60035b7a9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - pellucid_theme
+id: pellucid_theme_local_tasks
+theme: pellucid_theme
+region: content
+weight: -40
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }
