@@ -1,4 +1,3 @@
-uuid: 2d0954e6-b56d-4dfe-a500-0db60ad08f0f
 langcode: en
 status: true
 dependencies:
@@ -17,7 +16,7 @@ settings:
   label: 'Site branding'
   provider: system
   label_display: '0'
-  use_site_logo: true
+  use_site_logo: false
   use_site_name: true
   use_site_slogan: true
 visibility: {  }
