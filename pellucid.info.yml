@@ -1,48 +1,43 @@
-name: 'Pellucid Test'
+name: Pellucid
 type: profile
+description: 'Install with commonly used features pre-configured. Per standard right now.'
 core: 8.x
-project: 'drupal'
 dependencies:
-  - automated_cron
+  - node
+  - history
   - block
-  - block_content
   - breakpoint
   - ckeditor
   - color
-  - comment
   - config
-  - contact
+  - comment
   - contextual
-  - datetime
-  - dblog
-  - dynamic_page_cache
-  - editor
-  - field_ui
-  - file
-  - help
-  - history
-  - image
+  - contact
   - menu_link_content
-  - menu_ui
-  - node
-  - options
-  - page_cache
-  - path
+  - datetime
+  - block_content
   - quickedit
-  - rdf
+  - editor
+  - help
+  - image
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
   - search
   - shortcut
-  - taxonomy
   - toolbar
-  - tour
+  - field_ui
+  - file
+  - rdf
   - views
   - views_ui
+  - tour
+  - automated_cron
 themes:
   - bartik
   - seven
-  - pellucid_theme
-# package: 'Pellucid Test'
-# features:
-#   bundle: pellucid_test
-# distribution:
-#   name: 'Pellucid Test'
+  - pellucid_monoset

@@ -1,0 +1,17 @@
+{
+  "name": "iainhouston/pellucid_profile",
+  "extra": {
+    "installer-name": "pellucid"
+  },
+  "description": "Profile for pellucid_build.",
+  "type": "drupal-profile",
+  "license": "GPL-2.0+",
+  "keywords": ["pellucid"],
+  "homepage": "https://iainhouston.com",
+  "minimum-stability": "dev",
+  "authors": [{
+    "name": "Iain Houston",
+    "email": "iainhouston@mac.com"
+  }],
+  "require": {}
+}
